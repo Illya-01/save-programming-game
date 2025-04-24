@@ -3,6 +3,8 @@
 A word-guessing game where your mission is to save programming languages from extinction.
 In this game, you will guess letters to reveal a hidden programming term while eliminating languages with each wrong guess. The goal is to complete the word before all languages are lost.
 
+![screenshot of the winning game](public/app_screenshot.png)
+
 ## Features
 
 -  **Word Guessing**: Guess letters to uncover a hidden programming term
