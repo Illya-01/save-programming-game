@@ -1,0 +1,21 @@
+.current-word-list {
+   justify-content: center;
+   display: flex;
+   gap: 0.125rem;
+}
+
+.current-word-list > span {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   aspect-ratio: 1;
+   font-size: 1.125rem;
+   font-weight: 700;
+   background-color: #323232;
+   border-bottom: 1px solid #f9f4da;
+}
+
+.current-word-list > span.missed-letter {
+   color: #ec5d49;
+}

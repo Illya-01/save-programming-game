@@ -1,0 +1,36 @@
+.keyboard {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   max-width: 54ch;
+   gap: 0.5rem;
+   margin-top: 4rem;
+   margin-bottom: 2.25rem;
+}
+
+.keyboard > button {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fcba29;
+   border: 1px solid #d7d7d7;
+   border-radius: 4px;
+   width: 40px;
+   aspect-ratio: 1;
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: 600;
+   color: #1e1e1e;
+}
+
+.keyboard > button[disabled] {
+   opacity: 0.5;
+}
+
+button.right-guess {
+   background-color: #10a95b;
+}
+
+button.wrong-guess {
+   background-color: #ec5d49;
+}

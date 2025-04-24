@@ -1,0 +1,36 @@
+.message-box {
+   position: absolute;
+   top: 6rem;
+   left: 0;
+   right: 0;
+   width: min(100%, 40ch);
+   padding-inline: 0.5rem;
+   display: flex;
+   margin-block: 1.25rem;
+   margin-inline: auto;
+   min-height: 3.75rem;
+   padding-block: 6px;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   color: #f9f4da;
+   background-color: #7a5ea7;
+   border-radius: 4px;
+}
+
+.message-box > * {
+   margin: 0;
+}
+
+.message-box > .heading {
+   font-size: 1.25rem;
+   font-weight: inherit;
+}
+
+.message-box.won {
+   background-color: #10a95b;
+}
+
+.message-box.lost {
+   background-color: #ba2a2a;
+}

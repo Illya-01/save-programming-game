@@ -1,0 +1,21 @@
+header {
+   position: relative;
+   text-align: center;
+   max-width: 40ch;
+   margin-inline: auto;
+   margin-bottom: 7rem;
+}
+
+header > h1 {
+   font-size: 1.25rem;
+   font-weight: inherit;
+   margin-block: 0.25rem;
+   color: #f9f4da;
+}
+
+header > p {
+   font-size: 0.875rem;
+   font-weight: 500;
+   margin-block: 0.25rem;
+   color: #8e8e8e;
+}
